@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className='w-screen min-h-screen'>
       <Header />
-      <main style={{ minHeight: '80vh', padding: '2rem' , width:'100%'}}>
+      <main style={{ minHeight: '80vh', width:'100%'}}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<Home />} />
