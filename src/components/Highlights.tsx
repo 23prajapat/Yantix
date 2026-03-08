@@ -35,7 +35,6 @@ export default function Highlights() {
       {/* Slider */}
       <Swiper
         modules={[Navigation, Autoplay]}
-        slidesPerView={2.5}
         spaceBetween={30}
         navigation
         autoplay={{ delay: 3000 }}
@@ -43,7 +42,9 @@ export default function Highlights() {
         className="px-12"
       >
         {highlights.map((item, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index}
+
+          >
 
             <div className="relative overflow-hidden group">
 
