@@ -44,15 +44,6 @@ export default function Hero() {
           Building intelligent Radio Access Network (RAN) platforms that combine AI, edge computing, and advanced radio systems to power the next generation of cellular networks.
         </motion.p>
 
-        <motion.button
-          initial={{ opacity: 0, y: 60 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.6 }}
-          className="mt-8 w-fit px-6 py-3 bg-white text-black font-semibold rounded hover:bg-gray-200 transition"
-        >
-          Explore More
-        </motion.button>
-
       </div>
 
     </section>

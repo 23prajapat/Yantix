@@ -71,17 +71,28 @@ button {
 
 /* Zoom In/Out Animation */
 @keyframes zoomInOut {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
   }
+
   50% {
-    transform: scale(1.1); /* Slight zoom, adjust as needed */
+    transform: scale(1.1);
+    /* Slight zoom, adjust as needed */
   }
 }
 
 /* Reusable class for zoom animation */
 .zoom-animation {
-  animation: zoomInOut 6s ease-in-out infinite; /* 6s = slower, readable */
+  animation: zoomInOut 6s ease-in-out infinite;
+  /* 6s = slower, readable */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  /* make arrows black */
 }
 
 @import "tailwindcss";
