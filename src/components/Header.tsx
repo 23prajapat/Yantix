@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logo from "../assets/react.svg";
-import { FiSearch, FiMenu, FiX, FiChevronDown } from "react-icons/fi";
+import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 
 const menuItems = [
   {
