@@ -6,20 +6,24 @@ import "swiper/css/navigation";
 
 const highlights = [
   {
-    title: "5G for Industries",
-    image: "https://images.unsplash.com/photo-1581092335397-9583eb92d232"
+    title: "AI-Native RAN",
+    description: "Embedding intelligence directly into radio scheduling and network control.",
+    image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1200"
   },
   {
-    title: "AI Powered Networks",
-    image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+    title: "Private 5G Networks",
+    description: "Enterprise wireless infrastructure for Industry 4.0 environments.",
+    image: "https://plus.unsplash.com/premium_photo-1661878265739-da90bc1af051?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
-    title: "Cloud Infrastructure",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475"
+    title: "Edge Intelligence",
+    description: "Real-time analytics and control systems deployed at the network edge.",
+    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200"
   },
   {
-    title: "Private 5G",
-    image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+    title: "Future 6G Platforms",
+    description: "Architectures designed for autonomous next-generation networks.",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200"
   }
 ];
 
@@ -40,6 +44,17 @@ export default function Highlights() {
         autoplay={{ delay: 3000 }}
         loop
         className="px-12"
+        breakpoints={{
+          0: {
+            slidesPerView: 1, // mobile
+          },
+          640: {
+            slidesPerView: 2, // small tablets
+          },
+          1024: {
+            slidesPerView: 3, // desktop
+          },
+        }}
       >
         {highlights.map((item, index) => (
           <SwiperSlide key={index}
@@ -57,6 +72,9 @@ export default function Highlights() {
 
               <div className="absolute bottom-8 left-8 text-white text-2xl font-semibold">
                 {item.title}
+                <div className="text-[17px] m-2 ml-0">
+                  {item.description}
+                </div>
               </div>
 
             </div>

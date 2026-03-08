@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-150 w-full overflow-hidden">
+    <section className="relative h-180 w-full overflow-hidden">
       {/* Animated Background */}
       <motion.div
         className="absolute inset-0"
@@ -32,7 +32,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="text-5xl md:text-7xl font-bold leading-tight"
         >
-          Enter New Horizons
+          AI-Native 5G & 6G Wireless Infrastructure
         </motion.h1>
 
         <motion.p
@@ -41,8 +41,7 @@ export default function Hero() {
           transition={{ duration: 1.3 }}
           className="mt-6 text-lg md:text-xl max-w-xl"
         >
-          Discover how next-generation connectivity unlocks new
-          possibilities for industries, businesses and society.
+          Building intelligent Radio Access Network (RAN) platforms that combine AI, edge computing, and advanced radio systems to power the next generation of cellular networks.
         </motion.p>
 
         <motion.button

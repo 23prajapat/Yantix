@@ -5,11 +5,11 @@ import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 const menuItems = [
   {
     name: "Industries",
-    items: ["Manufacturing", "Telecom", "Energy", "Transportation"]
+    items: ["Manufacturing", "Telecom", "Energy", "Logistics"]
   },
   {
     name: "Solutions",
-    items: ["Private 5G", "AI Networks", "Cloud Infrastructure"]
+    items: ["Private 5G", "AI Native RAN", "Edge Intelligence"]
   },
   {
     name: "Investors",
@@ -55,6 +55,7 @@ export default function Header() {
 
               <button
                 onClick={() => toggleMenu(menu.name)}
+                onBlur={() => setActiveMenu(null)}
                 className="flex items-center gap-1 !bg-transparent text-gray-300"
               >
                 {menu.name}
