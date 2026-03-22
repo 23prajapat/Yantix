@@ -32,7 +32,7 @@ export default function Hero() {
           transition={{ duration: 1 }}
           className="text-5xl md:text-7xl font-bold leading-tight"
         >
-          AI-Native 5G & 6G Wireless Infrastructure
+          AI-Native Intelligence for Next-Generation Wireless Networks and Industry 4.0
         </motion.h1>
 
         <motion.p

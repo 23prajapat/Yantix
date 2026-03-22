@@ -33,16 +33,23 @@ export default function About({ name }: AboutProps) {
         <div className="px-6 py-12 text-gray-800">
             {/* Heading */}
             <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-gray-900">
-                Building the Future of Intelligent Wireless Networks
+                AI-Native Intelligence for Next-Generation Wireless Networks and Industry 4.0
             </h2>
 
             {/* Paragraphs */}
             <p className="mb-4 text-lg md:text-xl leading-relaxed">
-                Yantix is focused on building advanced RAN platforms where intelligence is embedded directly into the network infrastructure. By integrating AI models, edge compute, and radio control systems into a unified architecture, our platforms enable wireless networks to sense conditions, learn from real-world environments, and dynamically optimize performance.
-            </p>
+                Yantix Private Limited is a deep-technology company focused on developing next-generation AI-native wireless and intelligent connectivity systems.
+                We design and build advanced solutions across:
 
-            <p className="mb-4 text-lg md:text-xl leading-relaxed">
-                Unlike traditional telecom systems where optimization occurs through static configuration or external tools, Yantix platforms are designed to adapt continuously based on real-time network conditions, application requirements, and environmental signals.
+                • 5G and emerging 6G technologies
+                • AI-driven network optimization
+                • RF and wireless systems engineering
+                • Edge intelligence and digital twins
+                • Smart infrastructure and Industry 4.0 platforms
+
+                Our mission is to transform communication networks and industry systems into autonomous, intelligent ecosystems capable of adapting, optimizing, and evolving in real time.
+
+                By integrating artificial intelligence with advanced wireless engineering, Yantix is redefining how next-generation communication and industrial connectivity infrastructure is designed, deployed, and operated.
             </p>
         </div>
     ) : (

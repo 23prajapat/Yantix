@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import logo from "../assets/react.svg";
+import logo from "../assets/Logo.png";
 import { FiMenu, FiX, FiChevronDown } from "react-icons/fi";
 import About from "./About";
 import Careers from "./Careers";
@@ -29,7 +29,7 @@ const menuItems = [
   },
   {
     name: "About",
-    items: ["Company", "Leadership"]
+    items: ["Company"]//, "Leadership"]
   }
 ];
 
@@ -63,7 +63,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
 
           {/* Logo */}
-          <img src={logo} alt="logo" className="h-8" />
+          <img src={logo} alt="logo" className="h-10" />
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8 relative">
